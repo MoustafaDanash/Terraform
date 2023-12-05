@@ -1,6 +1,5 @@
 provider "aws" {
   region  = "us-east-1"
-  profile = "admin"
 }
 
 resource "aws_instance" "myec2" {
